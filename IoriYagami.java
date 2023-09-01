@@ -14,6 +14,6 @@ public class IoriYagami extends TheKingOfFighters {
 
     @Override
     public void especial() {
-        System.out.println(ANSI_RED + "Iori -------> realiza especial y mata a Rugal " + ANSI_RESET);
+        System.out.println(ANSI_RED + "Iori -------> Realiza especial y mata a Rugal " + ANSI_RESET);
     }
 }

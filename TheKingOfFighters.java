@@ -1,12 +1,12 @@
-// Definimos clase padre (abstracta)
+// Definición clase Padre (abstracta)
 public abstract class TheKingOfFighters {
 
-    // Definimos metodos de colores (Implemetacion Extra)
+    // Definición de métodos de colores (Implemetacion Extra)
     public static final String ANSI_YELLOW = "\u001B[33m";
     public static final String ANSI_RED = "\u001B[31m";
     public static final String ANSI_RESET = "\u001B[0m";
 
-    // Definimos tres métodos abstractos implementados en la clase Hijo (subclases)
+    // Definición de métodos abstractos implementados en la Clase Hijo (subclases)
     public abstract void golpear();
 
     public abstract void bloquear();
