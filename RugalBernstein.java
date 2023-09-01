@@ -4,16 +4,16 @@ public class RugalBernstein extends TheKingOfFighters {
     // Métodos abstractos
     @Override
     public void golpear() {
-        System.out.println("Rugal ataca con golpe bajo a Iori");
+        System.out.println(ANSI_YELLOW + "Rugal -------> Ataca con multiples golpes a Iori " + ANSI_RESET);
     }
 
     @Override
     public void bloquear() {
-        System.out.println("Rugal bloquea ataque de Iori");
+        System.out.println(ANSI_YELLOW + "Rugal -------> Bloquea ataque de Iori " + ANSI_RESET);
     }
 
     @Override
     public void especial() {
-        System.out.println("Rugal realiza especial y mata a Iori ");
+        System.out.println(ANSI_YELLOW + "Rugal -------> Realiza especial y mata a Iori " + ANSI_RESET);
     }
 }
