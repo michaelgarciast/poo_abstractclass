@@ -1,7 +1,7 @@
 // Definimos clase padre (abstracta)
 public abstract class TheKingOfFighters {
 
-    // Definir metodos de colores (Implemetacion Extra)
+    // Definimos metodos de colores (Implemetacion Extra)
     public static final String ANSI_YELLOW = "\u001B[33m";
     public static final String ANSI_RED = "\u001B[31m";
     public static final String ANSI_RESET = "\u001B[0m";
