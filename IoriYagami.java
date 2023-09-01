@@ -4,16 +4,16 @@ public class IoriYagami extends TheKingOfFighters {
     // Métodos abstractos
     @Override
     public void golpear() {
-        System.out.println(ANSI_RED + "Iori-------> Ataca con un golpe rapido a Rugal ");
+        System.out.println(ANSI_RED + "Iori -------> Ataca con un golpe rapido a Rugal ");
     }
 
     @Override
     public void bloquear() {
-        System.out.println(ANSI_RED + "Iori-------> Se agacha para bloquea ataque de Rugal" + ANSI_RESET);
+        System.out.println(ANSI_RED + "Iori -------> Se agacha para bloquea ataque de Rugal" + ANSI_RESET);
     }
 
     @Override
     public void especial() {
-        System.out.println(ANSI_RED + "Iori-------> realiza especial y mata a Rugal " + ANSI_RESET);
+        System.out.println(ANSI_RED + "Iori -------> realiza especial y mata a Rugal " + ANSI_RESET);
     }
 }
